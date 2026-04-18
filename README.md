@@ -1,5 +1,3 @@
-# Spotify_Analysis
-Exploratory data analysis of Spotify tracks dataset using Python and Pandas
 # Spotify Tracks Analysis 🎵
 
 Exploratory data analysis of 114,000+ Spotify tracks across 114 genres.
