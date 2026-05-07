@@ -6,7 +6,7 @@ Exploratory data analysis of 114,000+ Spotify tracks across 114 genres, built wi
 114,000 rows · 21 columns · 114 unique genres
 
 ## Tools
-Python · Pandas · Matplotlib · Seaborn · Jupyter Notebook
+Python · Pandas · Matplotlib · Seaborn · Scikit-learn · Jupyter Notebook
 
 ## Analyses Completed
 * Top 10 genres by average popularity
@@ -18,6 +18,7 @@ Python · Pandas · Matplotlib · Seaborn · Jupyter Notebook
 * Valence vs popularity by genre (scatter plot)
 * Song duration vs popularity (box plot)
 * Explicit vs clean tracks — popularity comparison overall and by genre
+* Genre clustering with K-Means — 4 audio profiles identified
 
 ## Key Findings
 * Pop-film and k-pop dominate in popularity, while metal subgenres lead in energy
@@ -27,7 +28,7 @@ Python · Pandas · Matplotlib · Seaborn · Jupyter Notebook
 * Melancholic genres like "sad" and "chill" are surprisingly popular
 * Explicit tracks are slightly more popular on average, but the gap varies heavily by genre
 * Hip-hop clean tracks outperform explicit ones — contrary to common assumption
-* The "sad" genre is consistently popular regardless of explicit content, energy or valence
+* K-Means identified 4 natural genre clusters: Rhythmic & Dance, Melodic & Emotional, High Energy & Intensity, Calm & Atmospheric
 
 ## Status
 🚧 Work in progress — more analyses coming
