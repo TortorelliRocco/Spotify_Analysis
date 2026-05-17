@@ -1,5 +1,6 @@
 # Spotify Tracks Analysis 🎵
-Exploratory data analysis of 114,000+ Spotify tracks across 114 genres, built with Python, Pandas, Matplotlib and Seaborn.
+Exploratory data analysis of 114,000+ Spotify tracks across 114 genres, 
+built with Python, Pandas, Matplotlib and Seaborn.
 
 ## Dataset
 [Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset) by Maharshi Pandya — Kaggle
@@ -19,6 +20,9 @@ Python · Pandas · Matplotlib · Seaborn · Scikit-learn · Jupyter Notebook
 * Song duration vs popularity (box plot)
 * Explicit vs clean tracks — popularity comparison overall and by genre
 * Genre clustering with K-Means — 4 audio profiles identified
+* Audio profiles of the 6 most popular artists — radar chart comparison
+* Popularity distribution across the dataset
+* BPM distribution across the top 10 most popular genres
 
 ## Key Findings
 * Pop-film and k-pop dominate in popularity, while metal subgenres lead in energy
@@ -29,6 +33,14 @@ Python · Pandas · Matplotlib · Seaborn · Scikit-learn · Jupyter Notebook
 * Explicit tracks are slightly more popular on average, but the gap varies heavily by genre
 * Hip-hop clean tracks outperform explicit ones — contrary to common assumption
 * K-Means identified 4 natural genre clusters: Rhythmic & Dance, Melodic & Emotional, High Energy & Intensity, Calm & Atmospheric
+* The 6 most popular artists have completely different audio profiles — no single formula for success
+* 14% of tracks have zero popularity — the dataset is heavily skewed toward unknown music
+* BPM is surprisingly consistent across the top 10 most popular genres
+
+## Conclusions
+Popularity on Spotify cannot be predicted from audio features alone. What makes 
+a song successful goes far beyond how it sounds — artist fame, playlist placement, 
+cultural trends and timing likely matter far more than any measurable audio feature.
 
 ## Status
-🚧 Work in progress — more analyses coming
+✅ Project completed
